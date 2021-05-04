@@ -1,0 +1,29 @@
+[debug] [2021-05-04T05:17:32.083Z] ----------------------------------------------------------------------
+[debug] [2021-05-04T05:17:32.089Z] Command:       D:\apk\node js\node.exe D:\apk\node js\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-05-04T05:17:32.090Z] CLI Version:   9.10.0
+[debug] [2021-05-04T05:17:32.090Z] Platform:      win32
+[debug] [2021-05-04T05:17:32.090Z] Node Version:  v14.15.0
+[debug] [2021-05-04T05:17:32.096Z] Time:          Tue May 04 2021 12:17:32 GMT+0700 (Indochina Time)
+[debug] [2021-05-04T05:17:32.097Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-04T05:17:32.157Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-04T05:17:32.158Z] > authorizing via signed-in user (bilahunni@gmail.com)
+[debug] [2021-05-04T05:17:32.159Z] [iam] checking project week11-login-a02a1 for permissions ["firebase.projects.get"]
+[debug] [2021-05-04T05:17:32.168Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/week11-login-a02a1:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-05-04T05:17:33.415Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 04 May 2021 05:17:34 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=953","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-04T05:17:33.421Z] > refreshing access token with scopes: []
+[debug] [2021-05-04T05:17:33.422Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-04T05:17:33.958Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 04 May 2021 05:17:35 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-04T05:17:34.002Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/week11-login-a02a1 [none]
+[debug] [2021-05-04T05:17:34.776Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/week11-login-a02a1 200
+[debug] [2021-05-04T05:17:34.777Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/week11-login-a02a1 {"projectId":"week11-login-a02a1","projectNumber":"819206079283","displayName":"Week11-Login","name":"projects/week11-login-a02a1","resources":{"hostingSite":"week11-login-a02a1","realtimeDatabaseInstance":"week11-login-a02a1-default-rtdb","storageBucket":"week11-login-a02a1.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\react\week12-firebase-crud'...
+[info] 
+[debug] [2021-05-04T05:17:34.786Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/week11-login-a02a1/webApps/-/config [none]
+[debug] [2021-05-04T05:17:36.192Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/week11-login-a02a1/webApps/-/config 200
+[debug] [2021-05-04T05:17:36.193Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/week11-login-a02a1/webApps/-/config {"projectId":"week11-login-a02a1","appId":"1:819206079283:web:460b8078fabe095d763446","databaseURL":"https://week11-login-a02a1-default-rtdb.firebaseio.com","storageBucket":"week11-login-a02a1.appspot.com","locationId":"us-central","apiKey":"AIzaSyDfWFL9gBcgycGqN1Vsxc973rWaG5z-5oY","authDomain":"week11-login-a02a1.firebaseapp.com","messagingSenderId":"819206079283","measurementId":"G-G3RGK1V4P1"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
